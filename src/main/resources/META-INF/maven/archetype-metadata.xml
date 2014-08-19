@@ -2,7 +2,7 @@
 
 <archetype-descriptor name="maven-cms-archetype">
     <fileSets>
-        <fileSet filtered="true" packaged="true">
+        <fileSet filtered="false" packaged="true">
             <directory>src/main/java</directory>
             <includes>
                 <include>**/*.java</include>
