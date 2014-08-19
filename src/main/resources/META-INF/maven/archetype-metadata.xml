@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<archetype-descriptor name="maven-cms-archetype">
+    <fileSets>
+        <fileSet filtered="true" packaged="true">
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+
+        <fileSet filtered="false" packaged="true">
+            <directory>src/main/resources/com/enonic/plugin/thymeleafcontroller</directory>
+            <includes>
+                <include>**/*.css</include>
+                <include>**/*.js</include>
+                <include>**/*.png</include>
+                <include>**/*.jpg</include>
+            </includes>
+        </fileSet>
+
+        <fileSet filtered="false" packaged="true">
+            <directory>src/main/resources/META-INF</directory>
+            <includes>
+                <include>cms/default.properties</include>
+                <include>sprint/context.xml</include>
+            </includes>
+        </fileSet>
+
+        <fileSet filtered="false" packaged="true">
+            <directory>src/main/resources/views</directory>
+            <includes>
+                <include>**/*.html</include>
+                <include>*.html</include>
+            </includes>
+        </fileSet>
+
+    </fileSets>
+</archetype-descriptor>

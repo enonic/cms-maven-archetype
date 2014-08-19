@@ -26,7 +26,7 @@ public class TemplateEngineProvider implements Provider<TemplateEngine> {
         LOG.debug("Initializing template Engine");
         templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setTemplateMode("HTML5");
-        templateResolver.setPrefix("/thymeleafcontroller-views/");
+        templateResolver.setPrefix("/views/");
         templateResolver.setSuffix(".html");
         templateResolver.setCacheable(false);
 

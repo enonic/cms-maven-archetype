@@ -1,0 +1,39 @@
+<archetype
+        xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0
+        http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+    <id>maven-cms-archetype</id>
+    <sources>
+        <source filtered="true">src/main/java/com/enonic/plugin/thymeleafcontroller/ResourcesController.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/thymeleafcontroller/TemplateEngineProvider.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/thymeleafcontroller/ThymeleafController.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/AuthenticatorImpl.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/AutoLoginImpl.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/FunctionLibraryBeanConfig.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/FunctionLibraryImpl.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/HttpControllerImpl.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/HttpInterceptorImpl.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/RemoteUserStoreImpl.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/TaskHandlerImpl.java</source>
+        <source filtered="true">src/main/java/com/enonic/plugin/TextExtractorImpl.java</source>
+    </sources>
+
+    <resources>
+        <resource filtered="false">src/main/resources/com/enonic/plugin/thymeleafcontroller/menu.css</resource>
+        <resource filtered="false">src/main/resources/com/enonic/plugin/thymeleafcontroller/menu.js</resource>
+        <resource filtered="false">src/main/resources/com/enonic/plugin/thymeleafcontroller/pure-min.css</resource>
+
+        <resource filtered="false">src/main/resources/META-INF/cms/default.properties</resource>
+        <resource filtered="false">src/main/resources/META-INF/spring/context.xml</resource>
+
+        <resource filtered="false">src/main/resources/views/dothis/andthis.html</resource>
+        <resource filtered="false">src/main/resources/views/errors/404.html</resource>
+        <resource filtered="false">src/main/resources/views/fragments/footer.html</resource>
+        <resource filtered="false">src/main/resources/views/fragments/head.html</resource>
+        <resource filtered="false">src/main/resources/views/fragments/navigation.html</resource>
+        <resource filtered="false">src/main/resources/views/dothat.html</resource>
+        <resource filtered="false">src/main/resources/views/dothis.html</resource>
+        <resource filtered="false">src/main/resources/views/thymeleafcontroller.html</resource>
+    </resources>
+</archetype>
