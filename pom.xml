@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.enonic.cms.tools</groupId>
+  <artifactId>maven-cms-archetype</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Maven CMS Archetype Parent</name>
+
+  <modules>
+    <module>example-cms-plugin</module>
+    <module>maven-cms-archetype-plugin</module>
+  </modules>
+
+  <distributionManagement>
+    <repository>
+      <id>enonic.internal</id>
+      <url>http://repo.enonic.net/artifactory/public</url>
+    </repository>
+  </distributionManagement>
+</project>
