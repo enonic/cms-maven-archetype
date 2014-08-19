@@ -5,10 +5,7 @@
     <groupId>com.enonic.cms.tools</groupId>
     <artifactId>maven-cms-archetype</artifactId>
     <version>4.7.6</version>
-    <modules>
-        <module>../archetype/customer-four</module>
-    </modules>
-    <packaging>pom</packaging>
+    <packaging>maven-archetype</packaging>
 
     <name>Maven CMS Plugin Archetype</name>
 
@@ -29,4 +26,12 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>enonic.internal</id>
+            <url>http://repo.enonic.net/artifactory/public</url>
+        </repository>
+    </distributionManagement>
+
 </project>

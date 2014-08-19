@@ -2,14 +2,14 @@
 
 <archetype-descriptor name="maven-cms-archetype">
     <fileSets>
-        <fileSet filtered="false" packaged="true">
+        <fileSet filtered="false" packaged="false">
             <directory>src/main/java</directory>
             <includes>
                 <include>**/*.java</include>
             </includes>
         </fileSet>
 
-        <fileSet filtered="false" packaged="true">
+        <fileSet filtered="false" packaged="false">
             <directory>src/main/resources/com/enonic/plugin/thymeleafcontroller</directory>
             <includes>
                 <include>**/*.css</include>
@@ -19,15 +19,15 @@
             </includes>
         </fileSet>
 
-        <fileSet filtered="false" packaged="true">
+        <fileSet filtered="false" packaged="false">
             <directory>src/main/resources/META-INF</directory>
             <includes>
                 <include>cms/default.properties</include>
-                <include>sprint/context.xml</include>
+                <include>spring/context.xml</include>
             </includes>
         </fileSet>
 
-        <fileSet filtered="false" packaged="true">
+        <fileSet filtered="false" packaged="false">
             <directory>src/main/resources/views</directory>
             <includes>
                 <include>**/*.html</include>
